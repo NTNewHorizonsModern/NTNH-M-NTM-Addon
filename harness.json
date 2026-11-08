@@ -1,0 +1,15 @@
+{
+  "name": "ntnhm",
+  "mod": ".",
+  "golemCore": null,
+  "scenarios": "harness/scenarios",
+  "fixtures": "harness/fixtures",
+  "out": "harness/out",
+  "world": "harness",
+  "defaultNodes": ["1.21.1-neoforge"],
+  "maxClients": 2,
+  "retentionHours": 10,
+  "nodes": [
+    {"name": "1.21.1-neoforge", "minecraft": "1.21.1", "loader": "neoforge", "port": 47603, "packFormat": 48, "java": 21}
+  ]
+}
